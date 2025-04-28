@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Croma</title>
+  <link rel="stylesheet" href="./style/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container d-flex align-items-center justify-content-between">
+      <!-- Left Side -->
+      <div class="d-flex align-items-center">
+        <a class="navbar-brand text-white fs-1" href="#">croma</a>
+        <button class="btn btn-outline-light ms-2 d-lg-none" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasMenu">
+          <i class="bi bi-list"></i>
+        </button>
+        <span class="menu-text d-none d-lg-block">
+          <i class="bi bi-list"></i> Menu
+        </span>
+      </div>
+
+      <!-- Center Search -->
+      <form class="d-flex mx-auto search-bar position-relative">
+        <input class="form-control  px-4" type="search" placeholder="What are you looking for ?" aria-label="Search">
+        <button class="btn position-absolute end-0 me-3 text-dark " type="submit">
+          <i class="bi bi-search"></i>
+        </button>
+      </form>
+
+      <!-- Right Side -->
+      <div class="d-flex align-items-center">
+        <div class="location-text me-4 d-flex align-items-center">
+          <i class="bi bi-geo-alt"></i>
+          <span class="ms-1">Mumbai, 400049 <i class="bi bi-pencil ms-1"></i></span>
+        </div>
+        <div class="menu-icons d-flex align-items-center">
+          <i class="bi bi-person fs-4 me-4"></i>
+          <div class="position-relative">
+            <i class="bi bi-cart3 fs-4"></i>
+            <span class="cart-badge">0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- home start -->
+  <div class="container-fluid p-0">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+          aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+          aria-label="Slide 7"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
+          aria-label="Slide 8"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="1500">
+          <img src="./images/HP_Rotating_SC_19Feb2025_uf8bkt.webp" class="d-block w-100 img-fluid " alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="1500">
+          <img src="./images/h2.webp" class="d-block w-100 img-fluid " alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="1500">
+          <img src="./images/h3.webp" class="d-block w-100 img-fluid " alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="1500">
+          <img src="./images/h4.webp" class="d-block w-100 img-fluid " alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="1500">
+          <img src="./images/h5.webp" class="d-block w-100 img-fluid " alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="1500">
+          <img src="./images/h6.webp" class="d-block w-100 img-fluid " alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="1500">
+          <img src="./images/h7.webp" class="d-block w-100 img-fluid " alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="1500">
+          <img src="./images/h8.webp" class="d-block w-100 img-fluid " alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <section class="category-slider py-5 bg-dark">
+    <div id="categoryCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-flex justify-content-center gap-4 ">
+            <!-- Category Item -->
+            <div class="text-center ">
+              <div class="images-size">
+                <img src="./images/c1.webp" alt="Mobile"  class="img-fluid rounded-3 ">
+              </div>
+            </div>
+            <div class="text-center">
+              <div class="images-size">
+                <img src="./images/c2.webp" alt="Televisions"  class="img-fluid rounded-3 ">
+              </div>
+            </div>
+            <div class="text-center">
+              <div class="images-size">
+                <img src="./images/c3.webp" alt="Air Conditioners"  class="img-fluid rounded-3 ">
+              </div>
+            </div>
+            <div class="text-center">
+              <div class="images-size">
+                <img src="./images/c4.webp" alt="Coolers"  class="img-fluid rounded-3 ">
+              </div>
+            </div>
+            <div class="text-center">
+              <div class="images-size">
+                <img src="./images/c5.webp" alt="Laptops"  class="img-fluid rounded-3 ">
+              </div>
+            </div>
+            <div class="text-center">
+              <div class="images-size">
+                <img src="./images/c6.webp" alt="Headphones"  class="img-fluid rounded-3 ">
+              </div>
+            </div>
+            <div class="text-center">
+              <div class="images-size">
+                <img src="./images/c7.webp" alt="Water Purifiers"  class="img-fluid rounded-3 ">
+              </div>
+            </div>
+            <div class="text-center">
+              <div class="images-size">
+                <img src="./images/c8.webp" alt="Refrigerators"  class="img-fluid rounded-3 ">
+              </div>
+            </div>
+            <div class="text-center">
+              <div class="images-size">
+                <img src="./images/c9.webp" alt="Accessories"  class="img-fluid rounded-3 ">
+              </div>
+            </div>
+            <div class="text-center">
+              <div class="images-size">
+                <img src="./images/c10.webp" alt="Washing Machines"  class="img-fluid rounded-3 ">
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="carousel-item">
+          <div class="d-flex justify-content-center gap-4">
+            <div class="text-center ">
+              <div class="images-size">
+                <img src="./images/c10.webp" alt="Mobile"  class="img-fluid rounded-3 ">
+              </div>
+            </div>
+            <div class="text-center">
+              <div class="images-size">
+                <img src="./images/c12.webp" alt="Televisions"  class="img-fluid rounded-3 ">
+              </div>
+            </div>
+            <div class="text-center">
+              <div class="images-size">
+                <img src="./images/c13.webp" alt="Air Conditioners"  class="img-fluid rounded-3 ">
+              </div>
+            </div>
+            <div class="text-center">
+              <div class="images-size">
+                <img src="./images/c14.webp" alt="Coolers"  class="img-fluid rounded-3 ">
+              </div>
+            </div>
+            <div class="text-center">
+              <div class="images-size">
+                <img src="./images/c15.webp" alt="Laptops"  class="img-fluid rounded-3 ">
+              </div>
+            </div>
+            <div class="text-center">
+              <div class="images-size">
+                <img src="./images/c16.webp" alt="Headphones"  class="img-fluid rounded-3 ">
+              </div>
+            </div>
+            <div class="text-center">
+              <div class="images-size">
+                <img src="./images/c11.webp" alt="Water Purifiers"  class="img-fluid rounded-3 ">
+              </div>
+            </div>
+            <div class="text-center">
+              <div class="images-size">
+                <img src="./images/c18.webp" alt="Refrigerators"  class="img-fluid rounded-3 ">
+              </div>
+            </div>
+            <div class="text-center">
+              <div class="images-size">
+                <img src="./images/c19.webp" alt="Accessories"  class="img-fluid rounded-3 ">
+              </div>
+            </div>
+            <div class="text-center">
+              <div class="images-size">
+                <img src="./images/c1.webp" alt="Washing Machines"  class="img-fluid rounded-3 ">
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+  
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#categoryCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon  p-2"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#categoryCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon  p-2"></span>
+      </button>
+    </div>
+  </section>
+  
+</body>
+
+</html>
