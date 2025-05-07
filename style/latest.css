@@ -1,0 +1,110 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #191919;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  * {
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background: #000 !important;
+}
+.navbar {
+    background-color: #000;
+    /* black background */
+    padding: 10px 20px;
+}
+
+.search-bar {
+    width: 500px;
+}
+
+.navbar-brand {
+    font-family: serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+.menu-text {
+    color: white;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.location-text,
+.menu-icons i {
+    color: white;
+}
+
+  
+  
+  .badge {
+    font-size: 0.7rem;
+  }
+  
+  #menuContent {
+    transition: max-height 0.4s ease, padding 0.3s ease;
+    overflow: hidden;
+    max-height: 0;
+  }
+  
+  #menuContent.show {
+    max-height: 300px;
+    padding: 20px;
+  }
+  
+  .product-card {
+      background-color: #332c2c !important;
+      color: white;
+      border-radius: 10px;
+      padding: 1rem;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .product-card:hover {
+      transform: scale(1.02);
+    }
+    
+    body {
+      background-color: #121212;
+    }
+    .filter-btns .btn {
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    
+    .ee li a:hover{
+      color: #63e6be  !important;
+    }
+    .social-icons a .fa-youtube:hover{
+      color: red;
+    }
+    .social-icons a .fa-facebook:hover{
+      color: rgb(63, 63, 135);
+    }
+    
+    .social-icons a .fa-twitter:hover{
+      color: rgb(63, 63, 135);
+    }
+    
+    .social-icons a .fa-linkedin:hover{
+      color: rgb(63, 63, 135);
+    }
+    .social-icons a .fa-instagram:hover{
+      color: rgb(63, 63, 135);
+    }
+    
+    .colour li:hover{
+      background-color: #63e6be !important;
+      color: black;
+    }
+    .colour li{
+      background-color: rgb(71, 70, 70);
+    }

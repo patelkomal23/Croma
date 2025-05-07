@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product-latest</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+<link rel="stylesheet" href="../style/latest.css"></head>
+
+<body>
+    <!--header-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container d-flex align-items-center justify-content-between">
+          <!-- Left Side -->
+          <div class="d-flex align-items-center">
+            <a class="navbar-brand text-white fs-1" href="#"><img src="../images/logo.svg" alt="" srcset=""></a>
+            <button class="btn btn-outline-light ms-2 d-lg-none" type="button" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasMenu">
+              <i class="bi bi-list"></i>
+            </button>
+            <span class="menu-text d-none d-lg-block">
+              <i class="bi bi-list"></i> Menu
+            </span>
+          </div>
+    
+          <!-- Center Search -->
+          <form class="d-flex mx-auto search-bar position-relative">
+            <input class="form-control  px-4" type="search" placeholder="What are you looking for ?" aria-label="Search">
+            <button class="btn position-absolute end-0 me-3 text-dark " type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+    
+          <!-- Right Side -->
+          <div class="d-flex align-items-center">
+            <div class="location-text me-4 d-flex align-items-center">
+              <i class="bi bi-geo-alt"></i>
+              <span class="ms-1">Mumbai, 400049 <i class="bi bi-pencil ms-1"></i></span>
+            </div>
+            <div class="menu-icons d-flex align-items-center">
+              <i class="bi bi-person fs-4 me-4"></i>
+              <div class="position-relative">
+                <i class="bi bi-cart3 fs-4"></i>
+                <span class="cart-badge">0</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+   
+
+
+  
+
+    <!-- Product Grid -->
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <a href="/html/produbt1.html">
+                    <div class="product-card">
+                        <img src="/images/air1.webp" height="350px" class="product-image" alt="JBL Blue" />
+                    </div>
+                </a>
+                <p class="mt-4 text-white fw-semibold">
+                    JBL Tune Buds 2 TWS Earbuds with Adaptive Noise Cancellation (IP54
+                    Water Resistant, 48 Hours Playback, Turquoise)
+                </p>
+                <p class="text-white">
+                    ₹5,499
+                    <strike class="ms-2">₹9,499</strike>
+                    <span class="text-white ms-2">(Save ₹4,000) 42% OFF</span>
+                </p>
+                <p>
+                    <i class="text-white fa-solid fa-truck me-3"></i><span class="text-white">Standard Delivery by Sat,
+                        3rd May</span>
+                </p>
+            </div>
+            <div class="col">
+                <a href="/html/product2.html">
+                    <div class="product-card">
+                        <img src="/images/air2.webp" class="product-image" height="300px" alt="JBL Black" />
+                        <p>JBL TWS - Black</p>
+                    </div>
+                </a>
+                <p class="mt-4 text-white fw-semibold">
+                    JBL Tune Buds 2 TWS Earbuds with Adaptive Noise Cancellation (IP54 Water Resistant, 48 Hours
+                    Playback, Black)
+                </p>
+                <p class="text-white">
+                    ₹5,499
+                    <strike class="ms-2">₹9,499</strike>
+                    <span class="text-white ms-2">(Save ₹4,000) 42% OFF</span>
+                </p>
+                <p>
+                    <i class="text-white fa-solid fa-truck me-3"></i><span class="text-white">Standard Delivery by Sat,
+                        3rd May</span>
+                </p>
+            </div>
+            <div class="col">
+                <a href="/html/product3.html">
+                    <div class="product-card">
+                        <img src="/images/air3.webp" class="product-image" height="300px" alt="JBL Cyan" />
+                        <p>JBL TWS - Cyan</p>
+                    </div>
+                </a>
+                <p class="mt-4 text-white fw-semibold">
+                    JBL Tune Buds 2 TWS Earbuds with Adaptive Noise Cancellation (IP54 Water Resistant, 48 Hours
+                    Playback, White)
+                </p>
+                <p class="text-white">
+                    ₹5,499
+                    <strike class="ms-2">₹9,499</strike>
+                    <span class="text-white ms-2">(Save ₹4,000) 42% OFF</span>
+                </p>
+                <p>
+                    <i class="fa-solid fa-xmark me-3 fs-4" style="color: #e00000;"></i><span class="text-white">Not
+                        Available at pincode Mumbai, 400049</span>
+                </p>
+            </div>
+
+            <div class="col">
+                <a href="/html/produbt1.html">
+                    <div class="product-card">
+                        <img src="/images/air1.webp" height="350px" class="product-image" alt="JBL Blue" />
+                    </div>
+                </a>
+                <p class="mt-4 text-white fw-semibold">
+                    JBL Tune Beam 2 TWS Earbuds with Adaptive Noise Cancellation (IP54 Water Resistant, 48 Hours
+                    Playback, Turquoise)
+                </p>
+                <p class="text-white">
+                    ₹5,999
+                    <strike class="ms-2">₹11,999</strike>
+                    <span class="text-white ms-2">(Save ₹6,000) 50% OFF</span>
+                </p>
+                <p>
+                    <i class="text-white fa-solid fa-truck me-3"></i><span class="text-white">Standard Delivery by Sat,
+                        3rd May</span>
+                </p>
+            </div>
+
+            <div class="col">
+                <a href="/html/product3.html">
+                    <div class="product-card">
+                        <img src="/images/air3.webp" height="350px" class="product-image" alt="JBL Blue" />
+                    </div>
+                </a>
+                <p class="mt-4 text-white fw-semibold">
+                    JBL Tune Beam 2 TWS Earbuds with Adaptive Noise Cancellation (IP54 Water Resistant, 48 Hours
+                    Playback, White)
+                </p>
+                <p class="text-white">
+                    ₹5,999
+                    <strike class="ms-2">₹11,999</strike>
+                    <span class="text-white ms-2">(Save ₹6,000) 50% OFF</span>
+                </p>
+                <p>
+                    <i class="fa-solid fa-xmark me-3 fs-4" style="color: #e00000;"></i><span class="text-white">Not
+                        Available at pincode Mumbai, 400049</span>
+                </p>
+            </div>
+
+
+            <div class="col">
+                <a href="/html/product2.html">
+                    <div class="product-card">
+                        <img src="/images/air2.webp" height="350px" class="product-image" alt="JBL Blue" />
+                    </div>
+                </a>
+                <p class="mt-4 text-white fw-semibold">
+                    JBL Tune Beam 2 TWS Earbuds with Adaptive Noise Cancellation (IP54 Water Resistant, 48 Hours
+                    Playback, Black)
+                </p>
+                <p class="text-white">
+                    ₹5,999
+                    <strike class="ms-2">₹11,999</strike>
+                    <span class="text-white ms-2">(Save ₹6,000) 50% OFF</span>
+                </p>
+                <p>
+                    <i class="text-white fa-solid fa-truck me-3"></i><span class="text-white">Standard Delivery by Sat,
+                        3rd May</span>
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!--foooter-->
+
+    <footer class="bg-dark text-white pt-5 pb-4 mt-5">
+        <div class="container text-md-left">
+            <div class="row">
+
+                <!-- Connect With Us -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="mb-4">CONNECT WITH US</h5>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Enter Email ID" aria-label="Email">
+                        <button class="btn btn-outline-light" type="button">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <div class="social-icons mt-3">
+                        <a href="#" class="text-white me-3"><i class="fab fa-youtube fa-lg"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-linkedin fa-lg"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                    </div>
+                    <p class="mt-4 small">© Copyright 2025 Croma. All rights reserved</p>
+                </div>
+
+                <!-- Useful Links -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="mb-4">USEFUL LINKS</h5>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-unstyled ee">
+                                <li><a href="#" class="text-white-50 text-decoration-none">About Croma</a></li>
+                                <li><a href="#" class="text-white-50 text-decoration-none">Help And Support</a></li>
+                                <li><a href="#" class="text-white-50 text-decoration-none">FAQs</a></li>
+                                <li><a href="#" class="text-white-50 text-decoration-none">Buying Guide</a></li>
+                                <li><a href="#" class="text-white-50 text-decoration-none">Return Policy</a></li>
+                                <li><a href="#" class="text-white-50 text-decoration-none">B2B Orders</a></li>
+                                <li><a href="#" class="text-white-50 text-decoration-none">Store Locator</a></li>
+                                <li><a href="#" class="text-white-50 text-decoration-none">E-Waste</a></li>
+                                <li><a href="#" class="text-white-50 text-decoration-none">Franchise Opportunity</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-6">
+                            <ul class="list-unstyled ee">
+                                <li><a href="#" class="text-white-50 text-decoration-none">Site Map</a></li>
+                                <li><a href="#" class="text-white-50 text-decoration-none">Careers At Croma</a></li>
+                                <li><a href="#" class="text-white-50 text-decoration-none">Terms Of Use</a></li>
+                                <li><a href="#" class="text-white-50 text-decoration-none">Disclaimer</a></li>
+                                <li><a href="#" class="text-white-50 text-decoration-none">Privacy Policy</a></li>
+                                <li><a href="#" class="text-white-50 text-decoration-none">Unboxed</a></li>
+                                <li><a href="#" class="text-white-50 text-decoration-none">Gift Card</a></li>
+                                <li><a href="#" class="text-white-50 text-decoration-none">Croma E-Star</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Products -->
+                <div class="col-md-5 mb-4">
+                    <h5 class="mb-4">PRODUCTS</h5>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-unstyled ee">
+                                <li><a href="#" class="text-white-50 text-decoration-none">Televisions & Accessories</a>
+                                </li>
+                                <li><a href="#" class="text-white-50 text-decoration-none">Home Appliances</a></li>
+                                <li><a href="#" class="text-white-50 text-decoration-none">Phones & Wearables</a></li>
+                                <li><a href="#" class="text-white-50 text-decoration-none">Computers & Tablets</a></li>
+                                <li><a href="#" class="text-white-50 text-decoration-none">Kitchen Appliances</a></li>
+                                <li><a href="#" class="text-white-50 text-decoration-none">Audio & Video</a></li>
+                                <li><a href="#" class="text-white-50 text-decoration-none">Health & Fitness</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-6">
+                            <ul class="list-unstyled ee">
+                                <li><a href="#" class="text-white-50 text-decoration-none">Grooming & Personal Care</a>
+                                </li>
+                                <li><a href="#" class="text-white-50 text-decoration-none">Cameras & Accessories</a>
+                                </li>
+                                <li><a href="#" class="text-white-50 text-decoration-none">Smart Devices</a></li>
+                                <li><a href="#" class="text-white-50 text-decoration-none">Gaming</a></li>
+                                <li><a href="#" class="text-white-50 text-decoration-none">Accessories</a></li>
+                                <li><a href="#" class="text-white-50 text-decoration-none">Top Brands</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
